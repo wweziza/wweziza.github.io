@@ -1,17 +1,67 @@
 <!DOCTYPE html>
-<html prefix="og: https://ogp.me/ns#">
- <head>
-  <meta property="og:title" content="Club: lsrp.world" />
-  <meta property="og:description" content="CLUBBBBBBBBB HOURSSSSSSSSSSSSSSSSSSSSSSSSS!" />
-  <meta property="og:image" content="https://media.discordapp.net/attachments/1196187128095326339/1204723736654123068/420072473_1457072491892897_5123874436639686827_n.png?ex=65d5c569&is=65c35069&hm=6b687e0578542d17b3f05a1c6b23a33d8f1167675497f84c711e3bb7e29987c1&=&format=webp&quality=lossless" />
-  <meta name="keywords" content="clubrp samp, club roleplay samp, samp roleplay, club, gaming, discord, clubroleplay, clubrp, clubrp dc, clubroleplay dc, clubrolepay discord, club roleplay, clubrp discord">
-  <!-- Add meta refresh tag to redirect to Discord invite link -->
-  <meta http-equiv="refresh" content="0; URL='https://discord.gg/RpJjtWuCfN'" />
- </head>
- <body>
-  <!-- Your existing content can remain here if you want, but it won't be visible as the page will redirect immediately -->
-  <h1>Server jelek tapi semua sayang club!</h1>
-  <h1>Join us discord.gg/clubrp or discord.gg/RpJjtWuCfN</h1>
-  <p></p>
- </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wira</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="layout/playground.module.css">
+    <link rel="stylesheet" href="layout/blogs.module.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <button class="hamburger" onclick="toggleMenu()">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="cv/index.html" target="_blank">CV</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero" id="home">
+            <img src="https://media.licdn.com/dms/image/v2/D5603AQHsNjVhI61hUw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1727172976031?e=1735171200&v=beta&t=KNQ2oSgtbDEb_yzaJwjE3DbAL9GFbw8jY-mbSnx8M-Q" alt="Profile Picture">
+            <h1>Wira R</h1>
+            <p style="font:caption;">i promise you i can work in team, really.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/weziza/" target="_blank" rel="noopener noreferrer" class="social-link linkedin">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+                <a href="https://github.com/wweziza" target="_blank" rel="noopener noreferrer" class="social-link github">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                </a>
+            </div>
+        </section>
+
+        <section id="blogs-container">
+            <div class="blogs"></div>
+        </section>
+
+        <section id="projects-container">
+            <div class="projects"></div>
+        </section>
+
+        <section id="playground-container">
+            
+            <div class="playground"></div>
+        </section>
+    </main>
+
+    <script src="scripts/script.js"></script>
+
+</body>
 </html>

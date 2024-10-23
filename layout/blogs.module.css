@@ -1,0 +1,108 @@
+
+
+.blogs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 500px;
+    
+}
+
+.blog-card {
+    background-color: #2B2B2B;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+}
+
+.platform-header {
+    font-size: 18px;
+    color: #1DA1F2;
+    margin-bottom: 10px;
+}
+
+.blog-title {
+    font-size: 16px;
+    color: #1DA1F2;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.blog-description {
+    font-size: 14px;
+    color: #E1E1E1;
+    margin-bottom: 20px;
+}
+
+.repo-card {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.repo-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.repo-content {
+    flex-grow: 1;
+}
+
+.repo-name {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.repo-description {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.repo-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.stat-item {
+    display: flex;
+    align-items: left;
+    font-size: 14px;
+    color: #666666;
+}
+
+.stat-item i {
+    margin-right: 5px;
+}
+
+/* Dark mode support */
+[data-theme="dark"] .blog-card {
+    background-color: #2B2B2B;
+}
+
+[data-theme="dark"] .repo-card {
+    background-color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    .blogs-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .repo-stats {
+        gap: 10px;
+    }
+    
+    .stat-item {
+        font-size: 12px;
+    }
+}
