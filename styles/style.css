@@ -183,7 +183,7 @@ main {
 }
 
 .social-link.github {
-    background-color: #333;
+    background-color: var(--nav-bg);
 }
 
 .social-link:hover {
