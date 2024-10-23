@@ -1,20 +1,26 @@
 
-
 .blogs-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
-    max-width: 500px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px var(--shadow);
-    
+    margin-top: 3rem;
+}
+
+
+@media (max-width: 768px) {
+    .blogs-grid {
+        grid-template-columns: 1fr; 
+    }
 }
 
 .blog-card {
-    background-color: var(--bg-color);  
+    background-color: var(--card-bg);
     border-radius: 10px;
-    padding: 20px;
-    width: 100%;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px var(--shadow);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    text-decoration: none; 
+    color: inherit;
 }
 
 .platform-header {

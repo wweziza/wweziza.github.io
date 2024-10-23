@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papers - Blog</title>
+    <link rel="icon" href="https://img.icons8.com/?size=100&id=55831&format=png&color=000000" type="image/png">
+    <link rel="stylesheet" href="../styles/style.css">
+    <style>
+        .breadcrumb {
+            padding: 1rem 2rem;
+            background-color: var(--background-color);
+            border-bottom: 1px solid rgba(0,0,0,0.1);
+        }
+
+        .breadcrumb a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        .breadcrumb span {
+            color: var(--text-color);
+        }
+
+        .blog-list {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+            position: relative;
+            top: 100px;
+        }
+
+        .blog-item {
+            background-color: var(--nav-bg);
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease;
+        }
+
+        .blog-item:hover {
+            transform: translateY(-3px);
+        }
+
+        .blog-title {
+            font-size: 1.5rem;
+            color: var(--text-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .blog-meta {
+            font-size: 0.9rem;
+            color: var(--text-color);
+            opacity: 0.7;
+            margin-bottom: 1rem;
+        }
+
+        .blog-summary {
+            color: var(--text-color);
+            margin-bottom: 1rem;
+        }
+
+        .read-more {
+            color: var(--accent-color);
+            font-weight: 500;
+        }
+
+        .read-more:hover {
+            text-decoration: underline;
+        }
+        
+        .nav-path {
+            background-color: var(--background-color);
+            color: var(--text-color);
+            font-size: 0.9rem;
+
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+            position: relative;
+            top: 100px;
+
+        }
+
+        .nav-path a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        .nav-path span {
+            color: var(--text-color);
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <button class="hamburger" onclick="toggleMenu()">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <div class="nav-links">
+                <a href="../index.html">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="https://blog.lsw.ink/cv/index.html" target="_blank">CV</a>
+                <a href="index.html">Blog</a>
+            </div>
+            <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
+        </div>
+    </nav>
+
+    <div class="nav-path">
+        Papers / Home</a>
+    </div>
+
+    <div class="blog-list">
+
+    </div>
+
+    <script src="../scripts/script.js"></script>
+    <script src="./loadposts.js "></script>
+</body>
+</html>

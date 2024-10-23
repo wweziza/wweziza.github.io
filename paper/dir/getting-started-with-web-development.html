@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting Started with Web Development - Blog</title>
+    <meta name="description" content="This is my first blog post about web development">
+    <meta name="date" content="2024-10-23">
+    <meta name="readTime" content="5 min read">
+    <link rel="icon" href="https://img.icons8.com/?size=100&id=55831&format=png&color=000000" type="image/png">
+    <link rel="stylesheet" href="../../styles/style.css">
+    <style>
+        .nav-path {
+            background-color: var(--background-color);
+            color: var(--text-color);
+            font-size: 0.9rem;
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+            position: relative;
+            top: 100px;
+        }
+
+        .nav-path a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        .nav-path span {
+            color: var(--text-color);
+            opacity: 0.7;
+        }
+
+        .article-container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+            position: relative;
+            top: 100px;
+            color: var(--text-color);
+        }
+
+        .article-header {
+            margin-bottom: 2rem;
+        }
+
+        .article-title {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .article-meta {
+            font-size: 0.9rem;
+            color: var(--text-color);
+            opacity: 0.7;
+        }
+
+        .article-content {
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+
+        .article-content h2 {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .article-content p {
+            margin-bottom: 1.5rem;
+        }
+
+        .article-content code {
+            background-color: var(--nav-bg);
+            padding: 0.2rem 0.4rem;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+        .author-section {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .author-container {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .author-image {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .author-info {
+            flex: 1;
+        }
+
+        .author-name {
+            font-weight: 600;
+            margin: 0;
+            color: var(--text-color);
+        }
+
+        .author-bio {
+            margin: 0.2rem 0 0 0;
+            font-size: 0.9rem;
+            color: var(--text-color);
+            opacity: 0.8;
+        }
+
+        .author-social {
+            margin-top: 0.5rem;
+        }
+
+        .author-social a {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-size: 0.9rem;
+            margin-right: 1rem;
+        }
+
+        .author-social a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <button class="hamburger" onclick="toggleMenu()">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <div class="nav-links">
+                <a href="../../index.html">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="https://blog.lsw.ink/cv/index.html" target="_blank">CV</a>
+                <a href="../index.html">Blog</a>
+            </div>
+            <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
+        </div>
+    </nav>
+
+        <div class="nav-path">
+            <a href="../index.html">Home</a> / Getting Started with Web Development
+        </div>
+
+    <article class="article-container">
+        <header class="article-header">
+            <h1 class="article-title">Getting Started with Web Development</h1>
+            <div class="article-meta">
+                Published on January 10, 2024 • 5 min read
+            </div>
+        </header>
+
+        <div class="article-content">
+            <p>
+                Web development is an exciting journey that combines creativity with technical skills. 
+                In this article, we'll explore the basics of web development and provide a step-by-step guide 
+                to getting started.
+            </p>
+
+            <h2>What is Web Development?</h2>
+
+            <p>
+                Web development refers to the process of building and maintaining websites, web applications, 
+                and mobile applications. It involves a range of tasks, including designing, coding, testing, 
+                and deploying.
+            </p>
+
+            <p>
+                Web development involves multiple programming languages, frameworks, and tools. 
+                Some of the most popular programming languages for web development include HTML, CSS, 
+                JavaScript, and PHP.
+            </p>
+
+            <h2>Getting Started with Web Development</h2>
+
+            <p>
+                To get started with web development, you'll need a few basic tools and a willingness to learn. 
+                Here's a step-by-step guide to help you get started:
+            </p>
+
+            <ol>
+                <li>
+                    Install a code editor or IDE (Integrated Development Environment) like Visual Studio Code, 
+                    Sublime Text, or Atom.
+                </li>
+                <li>
+                    Learn the basics of HTML, CSS, and JavaScript. You can find plenty of resources online, 
+                    including tutorials, videos, and coding challenges.
+                </li>
+                <li>
+                    Build small projects, such as a personal website or a to-do list app, to practice your skills.
+                </li>
+                <li>
+                    Join online communities, forums, and social media groups to connect with other web developers 
+                    and learn from their experiences.
+                </li>
+            </ol>
+
+            <p>
+                Remember, web development is a continuous learning process. Stay updated with the latest trends, 
+                best practices, and new technologies to remain competitive in the industry.
+            </p>
+        </div>
+        <div class="author-section">
+            <div class="author-container">
+                <img src="https://github.com/wweziza.png" alt="Author's profile picture" class="author-image">
+                <div class="author-info">
+                    <h3 class="author-name">weziza</h3>
+                    <p class="author-bio">i promise you i can work in team, really.</p>
+                    <div class="author-social">
+                        <a href="https://github.com/wweziza" target="_blank">GitHub</a>
+                        <a href="https://linkedin.com/in/weziza" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <script src="../../scripts/script.js"></script>
+</body>
+</html>
