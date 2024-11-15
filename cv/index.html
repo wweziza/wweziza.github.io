@@ -1,166 +1,262 @@
-<!DOCTYPE html>
-<html lang='en'>
+<html>
 <head>
-    <meta charset='UTF-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <title>Wira Rajendra</title>
-    <link rel="icon" href="https://img.icons8.com/?size=100&id=55831&format=png&color=000000" type="image/png">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <title>Wira Rajendra - Fullstack Developer</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .header p {
+            margin: 5px 0;
+            color: #666666;
+        }
+        .header .contact-info {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #666666;
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .left-column, .right-column {
+            width: 48%;
+        }
+        .section-title {
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+        .job-title {
+            font-weight: bold;
+        }
+        .job-details {
+            color: #666666;
+            font-size: 14px;
+        }
+        .job-description {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        .job-description ul {
+            padding-left: 20px;
+        }
+        .job-description ul li {
+            margin-bottom: 5px;
+            
+        }
+        .skills, .education, .languages, .awards {
+            margin-bottom: 20px;
+        }
+        .skills ul, .languages ul, .awards ul {
+            padding-left: 20px;
+        }
+        .skills ul li, .languages ul li, .awards ul li {
+            margin-bottom: 5px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1  style='color: #fff;'>Wira Rajendra</h1>
-        <p>Fullstack Developer</p>
-        <p><a href='https://blog.lsw.ink/' style='color: #fff;'>https://blog.lsw.ink/</a> | <a href='https://github.com/wweziza' style='color: #fff;'>GitHub</a></p>
-        <p>Yogyakarta, Indonesia</p>
-    </header>
-    <div class='container'>
-        <div class='section'>
-            <h2>Professional Summary</h2>
-            <p>Innovative Fullstack Developer with a robust foundation in web and game development, complemented by a deep appreciation for assembly language. My technological journey is propelled by strong JavaScript proficiency and a keen interest in reverse engineering. Demonstrated expertise in managing complex projects, navigating both high-level and low-level programming challenges, and continuously pushing the boundaries of technological possibilities.</p>
+    <div class="container">
+        <div class="header">
+            <h1>Wira Rajendra</h1>
+            <p>Fullstack Developer</p>
+            <p class="contact-info">
+                wira@lsw.ink<br>
+                <a href='https://blog.lsw.ink/'>https://blog.lsw.ink/</a><br>
+                <a href='https://github.com/wweziza'>https://github.com/wweziza</a><br>
+                Yogyakarta, Indonesia
+            </p>
+            <p>Innovative Fullstack Developer with a robust foundation in web and game development, complemented by a deep appreciation for assembly language. My technological journey is propelled by strong JavaScript proficiency and a keen interest in reverse engineering.</p>
         </div>
-        <div class='section'>
-            <h2>Professional Experience</h2>
-            <div class='experience-item'>
-                <p class='experience-title'>Full-stack Developer at PERURI</p>
-                <p class='experience-date'>November 2024 - Present</p>
-                <ul>
-                    <li>Being part of PERURI support team, to make sure the environment are running smoothly.</li>
-                    <li>Maintenence, monitoring, backup 5 PERURI applications with security patch once a month</li>
-                    <li>Responsible with minor untill major SLA with excellent resolution time</li>
-                </ul>
+        <div class="content">
+            <div class="left-column">
+                <div class="work-experience">
+                    <div class="section-title">Work Experience</div>
+                    <div class="job">
+                        <div class="job-title">Full-stack Developer</div>
+                        <div class="job-details">Perusahaan Umum Percetakan Uang Republik Indonesia (PERURI)</div>
+                        <div class="job-details">November 2024 - Present</div>
+                        <div class="job-description">
+                            <ul>
+                                <li>Being part of PERURI support team, to make sure the environment are running smoothly.</li>
+                                <li>Maintenance, monitoring, backup 5 PERURI applications with security patch once a month.</li>
+                                <li>Responsible for minor until major SLA with excellent resolution time.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="job">
+                        <div class="job-title">Project Management</div>
+                        <div class="job-details">LSW</div>
+                        <div class="job-details">2022 - Present</div>
+                        <div class="job-description">
+                            <ul>
+                                <li>Manage a popular gaming server, enhancing community engagement.</li>
+                                <li>Oversee comprehensive website development, including backend and frontend.</li>
+                                <li>Develop and maintain gamemode written in Pawn (C++-like language).</li>
+                                <li>Responsible for a database of nearly 50,000 client users.</li>
+                                <li>Implemented Midtrans payment gateway, integrated with gamemode and website.</li>
+                                <li>Developed and maintain a Discord.js bot for effective community moderation.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="job">
+                        <div class="job-title <div class="job-title">Code Maintainer</div>
+                        <div class="job-details">Secret Weapon</div>
+                        <div class="job-details">2024 - Present</div>
+                        <div class="job-description">
+                            <ul>
+                                <li>Oversee comprehensive website development, including backend and frontend.</li>
+                                <li>Code support for the teams in Pawn (C++ Look-a-like language).</li>
+                                <li>Implemented OAuth for the website credentials.</li>
+                                <li>Developed and maintain a Discord.js bot for effective community moderation.</li>
+                                <li>Responsible for the RESTful API making, that accessible for public.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="job">
+                        <div class="job-title">Intern</div>
+                        <div class="job-details">Epic Games</div>
+                        <div class="job-details">July 2024 - September 2024</div>
+                        <div class="job-description">
+                            <ul>
+                                <li>Received comprehensive training in Web Development, Game Development, and IoT from the Epic Games development team.</li>
+                                <li>Worked extensively with the Unreal Engine SDK.</li>
+                                <li>Completed various problem-solving tasks using C++ and the Verse Programming Language.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="job">
+                        <div class="job-title">Fullstack Developer</div>
+                        <div class="job-details">Anugrah Javan Asia</div>
+                        <div class="job-details">October 2022 - July 2023</div>
+                        <div class="job-description">
+                            <ul>
+                                <li>Maintained systems responsible for thousands of monthly transactions for a nickel importer company.</li>
+                                <li>Implemented daily client database backup systems.</li>
+                                <li>Utilized CI and Laravel frameworks for efficient development.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects">
+                    <div style="margin-top: 30px; margin-bottom: 30px; font-size: 25px; font-weight: bold;">Notable Projects</div>
+                    <div class="job">
+                        <div class="job-title">Electoral Elections System</div>
+                        <div class="job-description">
+                            <p>Prototype electoral system developed for KPU (Komisi Pemilihan Umum) that efficiently handled nearly hundred millions data entries.</p>
+                            <ul>
+                                <li>Efficiently handled nearly hundred millions data entries.</li>
+                                <li>Developed a responsive application with potential for mobile porting using Flutter.</li>
+                                <li>Integrated both MySQL and NoSQL databases for optimal performance.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="job">
+                        <div class="job-title">LSW Gaming Platform</div>
+                        <div class="job-description">
+                            <p>Developed a Discord.js bot integrated with payment gateway and backend systems, and created an extensive gamemode written in Pawn.</p>
+                            <ul>
+                                <li>Developed a Discord.js bot integrated with payment gateway and backend systems.</li>
+                                <li>Created an extensive gamemode written in Pawn (100,000+ lines of code).</li>
+                                <li>Built a responsive website using Next.js (<a href='https://lsrp.world'>https://lsrp.world</a>) offering features such as password changes, ticketing, and character customization.</li>
+                                <li>Implemented MySQL database integration across all LSW ecosystems.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="job">
+                        <div class="job-title">brand.LSW.ink</div>
+                        <div class="job-description">
+                            <p>Developed a textile brand website. Built React and the stocks management in admin panel, ready-to production.</p>
+                        </div>
+                    </div>
+                    <div class="job">
+                        <div class="job-title">Personal Portfolio</div>
+                        <div class="job-description">
+                            <p>Created a unique <a href='http://asm.lsw.ink'>personal portfolio</a> built entirely in Assembly x86.</p>
+                        </div>
+                    </div>
+                    <div class="job">
+                        <div class="job-title">Secret Weapon</div>
+                        <div class="job-description ">
+                            <p>Developed a website responsible for managing over 44K live users with hundreds of daily active users simultaneously.</p>
+                            <ul>
+                                <li>Developed a website for the user control panel response.</li>
+                                <li>Implemented Discord OAuth for credential options.</li>
+                                <li>Built a responsive design using Next.js (<a href='https://swdm.me'>https://swdm.me</a>) to serve data through APIs connected to MySQL.</li>
+                                <li>Utilized a wide range of tech stacks, including WebSocket, to integrate the live chat system.</li>
+                                <li>Created a public API for the community, providing real-time SWDM data.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="job">
+                        <div class="job-title">LSW.ink</div>
+                        <div class="job-description ">
+                            <p>LSW.ink is an automated top-up system integrated with payment gateways and reseller APIs, providing fast and affordable game top-ups such as Genshin Impact and Mobile Legends, currently available in Indonesia.</p>
+                            <ul>
+                                <li>Integrated with Midtrans as the payment gateway and VIP Reseller as the provider.</li>
+                                <li>Used MySQL to manage products, games, users, and accounts.</li>
+                                <li>Built a responsive design using Next.js (<a href='https://lsw.ink'>https://lsw.ink</a>).</li>
+                                <li>Used NextResponse for API callbacks and routing.</li>
+                                <li>Deployed 24/7 with Vercel.app, open-sourced, and easy to deploy.</li>
+                                <li>Supported various payment methods, with a focus on the popular QRIS payment option.</li>
+                                <li>Admin panel for managing users, products, games, discounts, and more.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class='experience-item'>
-                <p class='experience-title'>Project Management at LSW</p>
-                <p class='experience-date'>2022 - Present</p>
-                <ul>
-                    <li>Manage a popular gaming server, enhancing community engagement.</li>
-                    <li>Oversee comprehensive website development, including backend and frontend.</li>
-                    <li>Develop and maintain gamemode written in Pawn (C++-like language).</li>
-                    <li>Responsible for a database of nearly 50,000 client users.</li>
-                    <li>Implemented Midtrans payment gateway, integrated with gamemode and website.</li>
-                    <li>Developed and maintain a Discord.js bot for effective community moderation.</li>
-                </ul>
+            <div class="right-column">
+                <div class="skills">
+                    <div class="section-title">Technical Skills</div>
+                    <ul>
+                        <li>JavaScript, TypeScript, React, Node.js, Express.js, Next.js, PHP, Python, C++, Assembly, SQL, MongoDB, Git, RESTful APIs</li>
+                    </ul>
+                </div>
+                <div class="education">
+                    <div class="section-title">Education</div>
+                    <div class="job-title">Bina Nusantara University</div>
+                        <div class="job-details">2024 - Ongoing</div>
+                    <p>Recognized Study in Computer Science</p>
+                </div>
+                <div class="languages">
+                    <div class="section-title">Languages</div>
+                    <ul>
+                        <li>Indonesian (Native)</li>
+                        <li>English (Professional)</li>
+                    </ul>
+                </div>
+                <div class="awards">
+                    <div class="section-title">Certifications</div>
+                    <ul>
+                        <li><a href='https://cs50.harvard.edu/certificates/32ac8ffb-5275-4c7e-9529-e37068ee3e95' target='_blank'>Harvard CS50: Introduction to Computer Science (September 2024)</a></li>
+                        <li><a href='https://www.freecodecamp.org/certification/weziza/front-end-development-libraries' target='_blank'>FreeCodeCamp.org Frontend Development Libraries (July 2024)</a></li>
+                        <li><a href='https://www.linkedin.com/learning/certificates/2f00fa1477ef600ac2afdd010442ccdad2e3c1f6ab39a985af089c2cf2dc5372' target='_blank'>Career Essentials in GitHub Professional Certificate by Github (August 2024)</a></li>
+                        <li><a href='https://www.hackerrank.com/certificates/6e6e929a77d7' target='_blank'>HackerRank Software Engineer Certification (September 2024)</a></li>
+                        <li><a href='https://www.linkedin.com/learning/certificates/4e70f26e69f366fb1647d93da1fcfc53823ff770f6ddd842416b44f2c61147e3' target='_blank'>JavaScript Foundations Professional Certificate by Mozilla (October 2024)</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class='experience-item'>
-                <p class='experience-title'>Code Maintainer at Secret Weapon</p>
-                <p class='experience-date'>2024 - Present</p>
-                <ul>
-                    <li>Oversee comprehensive website development, including backend and frontend.</li>
-                    <li>Code support for the teams in Pawn (C++ Look-a-like language).</li>
-                    <li>Implemented OAuth for the website credentials.</li>
-                    <li>Developed and maintain a Discord.js bot for effective community moderation.</li>
-                    <li>Responsible for the RESTful API making, that accesible for public.</li>
-                </ul>
-            </div>
-            <div class='experience-item'>
-                <p class='experience-title'>Epic Games Internship</p>
-                <p class='experience-date'>July 2024 - September 2024</p>
-                <ul>
-                    <li>Received comprehensive training in Web Development, Game Development, and IoT from the Epic Games development team.</li>
-                    <li>Worked extensively with the Unreal Engine SDK.</li>
-                    <li>Completed various problem-solving tasks using C++ and the Verse Programming Language.</li>
-                </ul>
-            </div>
-            <div class='experience-item'>
-                <p class='experience-title'>Fullstack Developer at Anugrah Javan Asia</p>
-                <p class='experience-date'>October 2022 - July 2023</p>
-                <ul>
-                    <li>Maintained systems responsible for thousands of monthly transactions for a nickel importer company.</li>
-                    <li>Implemented daily client database backup systems.</li>
-                    <li>Utilized CI and Laravel frameworks for efficient development.</li>
-                </ul>
-            </div>
-        </div>
-        <div class='section'>
-            <h2>Education</h2>
-            <p>Binus University (September 2024) - Past Recognized Study in Computer Science</p>
-        </div>
-        <div class='section'>
-            <h2>Technical Skills</h2>
-            <div class='skills'>
-                <span class='skill'>JavaScript</span>
-                <span class='skill'>TypeScript</span>
-                <span class='skill'>React</span>
-                <span class='skill'>Node.js</span>
-                <span class='skill'>Express.js</span>
-                <span class='skill'>Next.js</span>
-                <span class='skill'>PHP</span>
-                <span class='skill'>Python</span>
-                <span class='skill'>C++</span>
-                <span class='skill'>Assembly</span>
-                <span class='skill'>SQL</span>
-                <span class='skill'>MongoDB</span>
-                <span class='skill'>Git</span>
-                <span class='skill'>RESTful APIs</span>
-            </div>
-        </div>
-        <div class='section'>
-            <h2>Certifications</h2>
-            <ul>
-                <li><a href='https://cs50.harvard.edu/certificates/32ac8ffb-5275-4c7e-9529-e37068ee3e95' target='_blank'>Harvard CS50: Introduction to Computer Science (September 2024)</a></li>
-                <li><a href='https://www.freecodecamp.org/certification/weziza/front-end-development-libraries' target='_blank'>FreeCodeCamp.org Frontend Development Libraries (July 2024)</a></li>
-                <li><a href='https://www.linkedin.com/learning/certificates/2f00fa1477ef600ac2afdd010442ccdad2e3c1f6ab39a985af089c2cf2dc5372' target='_blank'>Career Essentials in GitHub Professional Certificate by Github (August 2024)</a></li>
-                <li><a href='https://www.hackerrank.com/certificates/6e6e929a77d7' target='_blank'>HackerRank Software Engineer Certification (September 2024)</a></li>
-                <li><a href='https://www.linkedin.com/learning/certificates/4e70f26e69f366fb1647d93da1fcfc53823ff770f6ddd842416b44f2c61147e3' target='_blank'>JavaScript Foundations Professional Certificate by Mozilla (October 2024)</a></li>
-            </ul>
-        </div>
-        <div class='section'>
-            <h2>Notable Projects</h2>
-            <h3>Electoral Elections System</h3>
-            <p>Prototype electoral system developed for KPU (Komisi Pemilihan Umum)</p>
-            <ul>
-                <li>Efficiently handled nearly hundred millions data entries.</li>
-                <li>Developed a responsive application with potential for mobile porting using Flutter.</li>
-                <li>Integrated both MySQL and NoSQL databases for optimal performance.</li>
-            </ul>
-            <h3>LSW Gaming Platform</h3>
-            <ul>
-                <li>Developed a Discord.js bot integrated with payment gateway and backend systems.</li>
-                <li>Created an extensive gamemode written in Pawn (100,000+ lines of code).</li>
-                <li>Built a responsive website using Next.js (<a href='https://lsrp.world'>https://lsrp.world</a>) offering features such as password changes, ticketing, and character customization.</li>
-                <li>Implemented MySQL database integration across all LSW ecosystems.</li>
-            </ul>
-            <h3>brand.LSW.ink</h3>
-            <p>Developed a textile brand website. Built React and the stocks management in admin panel, ready-to production.</p>
-            <h3>Personal Portfolio</h3>
-            <p>Created a unique <a href='http://asm.lsw.ink'>personal portfolio</a> built entirely in Assembly x86.</p>
-            <h3>Secret Weapon</h3>
-            <p>Secret Weapon is a website responsible for managing over 44K live users with hundreds of daily active users simultaneously.</p>
-            <ul>
-                <li>Developed a website for the user control panel response.</li>
-                <li>Implemented Discord OAuth for credential options.</li>
-                <li>Built a responsive design using Next.js (<a href='https://swdm.me'>https://swdm.me</a>) to serve data through APIs connected to MySQL.</li>
-                <li>Utilized a wide range of tech stacks, including WebSocket, to integrate the live chat system.</li>
-                <li>Created a public API for the community, providing real-time SWDM data.</li>
-            </ul>
-            
-            <h3>LSW.ink</h3>
-            <p>LSW.ink is an automated top-up system integrated with payment gateways and reseller APIs, providing fast and affordable game top-ups such as Genshin Impact and Mobile Legends, currently available in Indonesia.</p>
-            <ul>
-                <li>Integrated with Midtrans as the payment gateway and VIP Reseller as the provider.</li>
-                <li>Used MySQL to manage products, games, users, and accounts.</li>
-                <li>Built a responsive design using Next.js (<a href='https://lsw.ink'>https://lsw.ink</a>).</li>
-                <li>Used NextResponse for API callbacks and routing.</li>
-                <li>Deployed 24/7 with Vercel.app, open-sourced, and easy to deploy.</li>
-                <li>Supported various payment methods, with a focus on the popular QRIS payment option.</li>
-                <li>Admin panel for managing users, products, games, discounts, and more.</li>
-            </ul>
-            
-            <h3>Other Developer Tools</h3>
-            <ul>
-                <li>Sequientaldw: Python-based web scraping tool</li>
-                <li>asm-http: HTTP server built using Assembly</li>
-                <li>asm-encryption: Assembly-based encryption tool using XOR Cipher</li>
-                <li>Jiro: Feature-rich Discord.js bot for LSW</li>
-                <li>FiveM: Custom framework developed in Lua</li>
-            </ul>
-            <p>For more projects, please visit <a href='https://github.com/wweziza'>my GitHub repositories</a>.</p>
         </div>
     </div>
-    <footer>
-        <p>&copy; 2024 Wira Rajendra. This website is proudly built with <a href='https://github.com/wweziza/asm-http' style='color: #fff;'>x86 assembly</a>.</p>
-    </footer>
 </body>
 </html>
